@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Hedvig+Letters+Sans&family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.nav {
+    color: blue;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.header2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 40px;
+  gap: 20px;
+}
+
+.teks .lorem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.teks .lorem > p {
+    background-color: #e6ffff;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header > img {
+    width: clamp(300px, 45%, 150px);
+}
+
+.header2 .teks-header {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.teks-header2 {
+    padding: 0px 10px;
+}
+
+.header2 .teks-header .teks-header2 > h1 {
+    padding-bottom: 20px;
+}
+
+.header2 .button-header > button {
+    padding: 10px 13px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+}
+
+.dipercaya {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    gap: 10px;
+}
+
+.dipercaya > p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 85%;
+    text-align: center;
+}
+
+.img-dipercaya {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+}
+
+.img-dipercaya > img {
+    width: 70%;
+}
+
+.testimoni {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    gap: 20px;
+    padding-bottom: 80px;
+}
+
+.testimoni > h2 {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.testimoni > button {
+    padding: 8px 13px;
+    background-color: white;
+    color: blue;
+    border-radius: 4px;
+}
+
+.card {
+    padding-bottom: 80px;
+}
+
+.card > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card div p {
+    padding-bottom: 20px;
+}
+
+.teks-card1 {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    width: 90%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.teks-card2 {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    width: 90%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.teks-card3 {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    width: 90%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card .card1 > img {
+    width: 20%;
+    overflow: auto;
+    margin-top: -40px;
+}
+
+.card .card2 > img {
+    width: 20%;
+    overflow: auto;
+    margin-top: -40px;
+}
+
+.card .card3 > img {
+    width: 20%;
+    overflow: auto;
+    margin-top: -40px;
+}
+
+.problem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.problem > h2 {
+    padding-bottom: 40px;
+}
+
+.problem .teks-problem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.problem > img {
+    padding-top: 20px;
+    width: clamp(300px, 45%, 150px);
+}
+
+.produk-name2 {
+    width: 100%;
+    padding-top: 60px;
+    background-color: blue;
+    color: white;
+    overflow: auto;
+    margin-top: -90px;
+    padding-bottom: 30px;
+}
+
+.produk-name .img-produk > img {
+    padding-top: 20px;
+    width: clamp(300px, 45%, 150px);
+}
+
+.fitur-produk {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fitur1 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fitur2 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fitur {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 50px;
+    background-color: rgb(68, 68, 255);
+}
+
+.produk-name > h2 {
+    padding: 0px 20px 0px 20px;
+}
+
+.make {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.make > h2 {
+    width: 80%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.make > h3 {
+    text-align: center;
+}
+
+.make > p {
+    width: 80%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.make > img {
+    width: clamp(300px, 45%, 150px);
+    padding-bottom: 20px;
+}
+
+.gain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.gain h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.gain > div {
+    width: 80%;
+}
+
+.ceklist1 p {
+    border-bottom: 1px solid black;
+    padding: 20px 0px 20px 0px;
+}
+
+.ceklist2 p {
+    border-bottom: 1px solid black;
+    padding: 20px 0px 20px 0px;
+} 
+
+.ceklist2 p:nth-child(3) {
+    border: none;
+}
+
+.ceklist1 i {
+    color: rgb(7, 201, 7);
+    font-weight: 800;
+}
+
+.ceklist2 i {
+    color: rgb(7, 201, 7);
+    font-weight: bold;
+}
+
+.tingkatkan {
+    padding-top: 40px;
+    background-color: blue;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.tingkatkan h4 {
+    padding-bottom: 10px;
+}
+
+.tingkatkan button {
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: 8px 13px;
+    border-radius: 4px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.manfaat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.detail > h3 {
+    padding: 0px 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.detail .img-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail .img-detail > img {
+    width: clamp(300px, 45%, 150px);
+}
+
+.teks-detail {
+    width: 80%;
+}
+
+.teks-detail p:nth-child(3) {
+    border: none;
+}
+
+.teks-detail p {
+    border-bottom: 1px solid black;
+    padding: 20px 0px 20px 0px;
+}
+
+.teks-detail p i {
+    color: rgb(7, 201, 7);
+    font-weight: bold;
+}
+
+.reason {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.reason h4 {
+    padding: 0px 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.card-reason {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bonus1 {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.bonus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.bonus div {
+    width: 80%;
+    text-align: center;
+}
+
+.bonus div strong {
+    border-top: 3px solid blue;
+    width: 50%;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.harga-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.teks-harga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.harga-product .teks-harga p {
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+.teks-harga h4 {
+    padding-bottom: 20px;
+}
+
+.img-harga {
+    text-align: center;
+}
+
+.img-harga img {
+    width: clamp(300px, 45%, 150px);
+    padding-bottom: 20px;
+}
+
+.harga-product img {
+    width: 80%;
+}
+
+.harga-product h2 {
+    padding-bottom: 20px;
+}
+
+.harga-product button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 13px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6ffff;
+    padding-bottom: 60px;
+}
+
+.question h3 {
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.question p {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.card-question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-question1 {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+    width: 80%;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.card-question2 {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+    width: 80%;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.card-question3 {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+    width: 80%;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+}
+
+footer .footer {
+    padding-top: 30px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    gap: 30px;
+}
+
+footer .footer .user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer .user img {
+    width: 20%;
+    text-align: center;
+}
+
+footer .footer .button-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer .icon > i {
+    padding: 10px;
+    font-size: 30px;
+}
+
+footer .teks-user {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+footer button {
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: 8px 13px;
+    border-radius: 4px;
+}
+
+@media(min-width: 1024px) {
+    .header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lorem {
+        text-align: left;
+        padding-right: 300px;
+    }
+
+    .header2 {
+        width: 40%;
+    }
+
+    .teks-header2 {
+        text-align: left;
+    }
+
+    .header2 .button-header {
+       padding-right: 375px;
+    }
+
+    .img-dipercaya {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .dipercaya img {
+        display: flex;
+        width: 80%;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .produk-name {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .produk-name2 h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .gain {
+        flex-direction: row;
+        width: 80%;
+        gap: 10px;
+    }
+
+    .ceklist1 p:nth-child(3) {
+        border: none;
+    }
+
+    .tingkatkan {
+        display: flex;
+        justify-content: space-around;
+        gap: 200px;
+    }
+
+    .tingkatkan h4 {
+        padding-right: 58px;
+    }
+
+    .detail {
+        flex-direction: row-reverse;
+        padding-bottom: 50px;
+    }
+
+    .detail .manfaat {
+        width: 50%;
+    }
+
+    .detail .manfaat h3 {
+        text-align: left;
+    }
+
+    .detail .img-detail {
+        width: 50%;
+    }
+
+    .detail .img-detail > img {
+        width: clamp(400px, 80%, 200px);
+    }
+
+    .reason {
+        background-color: #e6ffff;
+    }
+
+    .reason .card-reason {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .reason .card-reason div {
+        width: 35%;
+        background-color: white;
+        padding: 20px;
+    }
+
+    .bonus {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .bonus div {
+        width: 20%;
+    }
+
+    .harga-product {
+        flex-direction: row-reverse;
+    }
+
+    .harga-product .teks-harga {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 50%;
+    }
+
+    footer .footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
